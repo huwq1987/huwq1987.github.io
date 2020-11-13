@@ -3,6 +3,14 @@
     <!-- Start of HubSpot Embed Code -->
     <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8434473.js"></script>
     <!-- End of HubSpot Embed Code -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script>
+      const m = moment();
+      console.log('moment().format()', m.format());
+      console.log('moment().format("YYYY-MM-DD")', m.format('YYYY-MM-DD'));
+      console.log('moment().format("ZZ")', m.format('ZZ'));
+    </script>
   </head>
   <body>
     HubSpot demo
